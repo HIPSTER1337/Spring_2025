@@ -1,0 +1,312 @@
+html{
+position: relative;
+min-height: 100%;
+}
+
+#header {
+  height: 60px;
+  position:fixed;
+  left:0;
+  right:0;
+}
+
+.name_text {
+  text-decoration: none;
+  font-size: 30px; 
+  display: flex;
+  color:white;
+  align-items: center; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header_butt {
+  font-family:'IMPACT';
+  font-size: 20px;
+  display: flex;
+  text-decoration: none;
+  align-items: center; 
+  justify-content: center;
+  background: linear-gradient(75deg,rgba(255, 215, 0, 1) 0%, rgba(178, 129, 56, 1) 100%);
+  height: 50px;
+  width: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 15px;
+  color:black;
+
+}
+.header_butt:hover {
+  background-color: #E6CEFC;
+  box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.charac {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family:'IMPACT';
+  font-size: 15px;
+  color:white;
+}
+
+.title_list {
+  color:black;
+  font-family: 'IMPACT';
+  font-size: 30;
+}
+
+.text_description {
+  color:#EAEAEA;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #666;
+  }
+
+
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    text-align: center;
+   }
+.btn:hover {
+    background-color: #b5c0ca;
+}
+.text {
+    border-radius: 10px;
+}
+
+.main_cont {
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;    
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child_cont {
+    max-width: 900px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+  }
+  .container-hor {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+
+#middle_page {
+  padding-top: 50px;
+}
+
+#cars {
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 700px;
+    max-height: 2000px;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: linear-gradient(75deg,rgba(255, 215, 0, 1) 0%, rgba(178, 129, 56, 1) 100%);
+    border-radius: 50px; /* Скругляем уголки */
+
+}
+
+#cars_description {
+  min-width: 600px;
+  max-width: 2000px;
+  min-height: 700px;
+  max-height: 2000px;
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+}
+
+.list_cars {
+  list-style: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.list_cars_item {
+  padding-top: 15px;
+  min-width: 100px;
+  max-width: 300px;
+  min-height: 100px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.list_cars_item::after {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.list_cars_item:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+.list_cars_item:hover::after {
+  opacity: 1;
+}
+
+.img_cars_list {
+  object-fit: cover ;
+  object-position: bottom;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.img_car_description {
+  max-width: 720px;
+  max-height: 480px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  border-radius: 100px;
+
+}
+.description{
+  display: none;
+  padding-top: 30px;
+}
+
+#submit1 {
+    border-radius: 15px;
+    background-color: #A64CA6;
+    min-width: 150px;
+    min-height: 50px;
+}
+
+#submit1:hover {
+    border-radius: 15px;
+    background-color: #FF75FF;
+    min-width: 150px;
+    min-height: 50px;
+}
+
+#login-form input {
+    font-family: 'IMPACT';
+    font-size: 20;
+    border-radius: 10px;
+}
+
+.body-main {
+  background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(99, 99, 99, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+#message {
+    background-color:#EE4545;
+    font-family: 'IMPACT';
+    font-size: 30;
+    border-radius: 10px;
+    min-width: 100px;
+    max-width: 500px;
+}
+
+.text_mes {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30;
+  border-radius: 10px;
+  min-width: 100px;
+  max-width: 1500px;
+  color: white;
+}
+
+.close_popup {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 35px;
+  cursor: pointer;
+
+}
+
+.okn_main input {
+  display: block;
+  margin: 0 auto 15px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 15px 25px;
+  max-width: 100%;
+}
+
+.okn_main {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  width: 600px;
+  max-width: 100%;
+  padding: 60px 60px;
+  background: #666;
+  border-radius: 20px;
+
+}
+
+.popup_inner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  display: none;
+}
+
+.popup_inner.active {
+  display: flex;
+}
+
+.bron_bt {
+  height: 50px;
+  width: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 15px;
+  color:black;
+  background: linear-gradient(75deg,rgba(255, 215, 0, 1) 0%, rgba(178, 129, 56, 1) 100%);
+}
+
